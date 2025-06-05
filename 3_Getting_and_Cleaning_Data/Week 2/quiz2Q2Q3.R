@@ -1,6 +1,6 @@
 ## Getting and Cleaning Data Quiz
 
-# Question 2
+## Question 2
 
 # Installing Required Package
 install.packages("sqldf")
@@ -20,3 +20,10 @@ acs <- data.table::data.table(read.csv(f))
 
 # Querying
 query1 <- sqldf("select pwgtp1 from acs where AGEP < 50")
+
+
+## Question 3
+# What is the equivalent function to unique(acs$AGEP)
+
+query2 <- sqldf("select distinct AGEP from acs")
+
