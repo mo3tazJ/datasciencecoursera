@@ -2,6 +2,6 @@ Client ID
 Ov23liA4EjAgknVBUGrR
 
 Client secrets
-daa03bbab5ea4247f3c248a193419610a80fe0d1
+1c0f12c61d6047f84bdd0eba77c54de343cffda1
 Added 1 minute ago by mo3tazJ
 
