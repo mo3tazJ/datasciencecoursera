@@ -37,4 +37,7 @@ json1 = content(req)
 gitDF = jsonlite::fromJSON(jsonlite::toJSON(json1))
 
 # Subset data.frame
-gitDF[gitDF$full_name == "jtleek/datasharing", "created_at"]
+gitDF[gitDF$full_name == "jtleek/datasharing", "created_at"] 
+
+# Answer: 
+# 2013-11-07T13:25:07Z
