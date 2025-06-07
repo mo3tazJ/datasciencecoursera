@@ -27,3 +27,10 @@ answer <- GDPrank[, mean(as.integer(gsub(pattern = ',', replacement = '', x = GD
 print(answer)
 
 ## answer: 377652.4
+
+
+## Question 3
+
+grep("^United",GDPrank[, Country])
+
+## answer: 1  6 32,  correct choice :(grep("^United",countryNames), 3)
