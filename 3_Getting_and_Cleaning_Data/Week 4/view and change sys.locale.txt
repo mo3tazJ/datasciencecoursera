@@ -1,0 +1,6 @@
+To view your locale, type Sys.getlocale("LC_TIME").
+
+If the output above is not "en_US.UTF-8", you can change the locale used by R for the duration of this session by typing:
+Sys.setlocale("LC_TIME", "en_US.UTF-8"). 
+Otherwise, this lesson is not guaranteed to work correctly. We apologize for this inconvenience.
+
